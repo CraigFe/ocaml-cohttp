@@ -1,6 +1,6 @@
 (executable
  (name test_async_integration)
- (libraries cohttp_async_test async_unix base core async_kernel oUnit
+ (libraries cohttp_async_test async_unix base core async_kernel ounit
    cohttp-async))
 
 (rule
